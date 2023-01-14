@@ -1,0 +1,65 @@
+/* google fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500&family=Work+Sans&display=swap');
+
+
+/* common style  */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    width: 95%;
+    margin: auto;
+}
+
+
+
+/* nav style  */
+ 
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.nav-title{
+    color: #3A3A3A;
+    font-weight: 700;
+font-size: 24px;
+}
+ 
+
+ul a {
+    font-weight: 600;
+font-size: 16px;
+color: #3A3A3A;
+text-decoration: none;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    gap: 34px;
+    margin-right: 120px;
+}
+
+ul li {
+    list-style: none;
+}
+
+
+
+
+/* responsive style ----------------------------------------
+------------------------------------------------------------ */
+
+/* for mobile */
+
+@media only screen and (max-width:688px) {
+    
+
+    /* nav responsive style  */
+    .nav, .nav-list{
+        flex-direction: column;
+    }
+
+    
+}
